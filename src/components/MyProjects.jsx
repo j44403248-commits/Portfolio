@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 // Import your project images
 import img1 from "../Images/shiping.jpg";
 import img2 from "../Images/pro.png";
-import img3 from "../Images/lundary.png";
+import img3 from "../Images/akoya.png";
 import img4 from "../Images/charity.jpeg";
 import img5 from "../Images/carrent.png";
 import img6 from "../Images/foodymat.png";
