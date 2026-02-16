@@ -1,6 +1,6 @@
 import { Fragment, useEffect } from "react";
 import About from "../Images/mh.png";
-import resume from "../Images/jahanzaibmahar.pdf";
+// import resume from "../Images/jahanzaibmahar.pdf";
 import { FaDownload, FaUserTie, FaCode, FaPalette, FaWordpress } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -17,7 +17,7 @@ const AboutMe = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = resume;
+    // link.href = resume;
     link.download = "JahanzaibMahar.pdf";
     document.body.appendChild(link);
     link.click();
