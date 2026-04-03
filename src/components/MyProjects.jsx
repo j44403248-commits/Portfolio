@@ -8,9 +8,9 @@ import img1 from "../Images/shiping.jpg";
 import img2 from "../Images/pro.png";
 import img3 from "../Images/akoya.png";
 import img4 from "../Images/charity.jpeg";
-import img5 from "../Images/carrent1.png";
+// import img5 from "../Images/carrent1.png";
 import img6 from "../Images/foodymat1.png";
-
+import img7 from "../Images/carrent1.png";
 const MyProjects = () => {
   useEffect(() => {
     Aos.init({
@@ -47,10 +47,10 @@ const MyProjects = () => {
       category: "Donate",
     },
     {
-      pic: img5,
-      title: "Car Rental",
+      pic: "https://cdn.pixabay.com/photo/2017/05/03/14/24/audi-2281218_1280.jpg",
+      title: "Link Way Rides",
       link: "https://car-rental-yellow.vercel.app/",
-      category: "Travel & Transportation",
+      category: "Stress FreeTravel",
     },
     {
       pic: img6,
@@ -58,6 +58,39 @@ const MyProjects = () => {
       link: "https://restaurant-rho-ruddy.vercel.app/",
       category: "Restaurant Service Dining",
     },
+
+  {
+      pic: "https://wearzane.com/cdn/shop/files/SnapInsta.to_621822729_17986132166944621_1439044001431284619_n_400x.jpg?v=1769670917",
+      title: "Cane",
+      link: "https://ecommerce-ochre-psi.vercel.app/",
+      category: "Shopping Center",
+    },
+   {
+      pic: img7,
+      title: "Resume ",
+      link: "https://resume-fkdy.vercel.app/",
+      category: "Resume uplift",
+    },
+
+    //  {
+    //   pic: img7,
+    //   title: "Ecommerce",
+    //   link: "https://ecommerce-ochre-psi.vercel.app/",
+    //   category: "Shopping Center",
+    // },
+
+    //  {
+    //   pic: img7,
+    //   title: "Cane",
+    //   link: "https://ecommerce-ochre-psi.vercel.app/",
+    //   category: "Shopping Center",
+    // },
+  
+   
+
+
+
+
   ];
 
   const [hoveredProject, setHoveredProject] = useState(null);
