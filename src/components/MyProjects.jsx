@@ -11,6 +11,8 @@ import img4 from "../Images/charity.jpeg";
 // import img5 from "../Images/carrent1.png";
 import img6 from "../Images/foodymat1.png";
 import img7 from "../Images/carrent1.png";
+
+import Screenshot from "../Images/Screenshot.png";
 const MyProjects = () => {
   useEffect(() => {
     Aos.init({
@@ -72,25 +74,12 @@ const MyProjects = () => {
       category: "Resume uplift",
     },
 
-    //  {
-    //   pic: img7,
-    //   title: "Ecommerce",
-    //   link: "https://ecommerce-ochre-psi.vercel.app/",
-    //   category: "Shopping Center",
-    // },
-
-    //  {
-    //   pic: img7,
-    //   title: "Cane",
-    //   link: "https://ecommerce-ochre-psi.vercel.app/",
-    //   category: "Shopping Center",
-    // },
-  
-   
-
-
-
-
+     {
+      pic: Screenshot,
+      title: "Flora Bloom",
+      link: "https://flowers-snowy-two.vercel.app/",
+      category: "Flower Shop",
+    },
   ];
 
   const [hoveredProject, setHoveredProject] = useState(null);
